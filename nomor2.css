@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    margin: 0px;
+    overflow: scroll;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#example1{
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid black;
+}
+#example2{
+    border: 1px solid black;
+    position:relative;
+}
+.img img{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+#float-img{
+    float: right;
+    width: 200px;
+    height: 400px;
+}

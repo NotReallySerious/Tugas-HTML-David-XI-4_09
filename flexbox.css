@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 10px;
+    height: 800px;
+    overflow: scroll;
+    align-content:flex-start;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 7px;
+    font-size: 6em;
+    text-align: center;
+    border-radius: 15px;
+    flex-grow: inherit;
+    margin: 3px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color:beige;
+}
+#box3{
+    background-color:aquamarine;
+}
+#box4{
+    background-color:brown;
+}
